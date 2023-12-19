@@ -25,3 +25,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Gem i included to help generate posts
 gem 'jekyll-compose', group: [:jekyll_plugins]
+
+gem 'jekyll-redirect-from'
