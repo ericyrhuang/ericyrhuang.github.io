@@ -3,7 +3,6 @@ layout: post
 title: Welcome world
 date: 2023-12-19 12:54 +0000
 categories: [Life]
-tags: [first post]
 hidden: false
 #pin: true
 ---
