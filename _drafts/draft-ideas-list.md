@@ -25,3 +25,5 @@ This is a list of stuff I've been meaning to write about that I haven't had actu
 - Politics
 - Biden
 
+
+Blogging during work is probably bad but oh well
