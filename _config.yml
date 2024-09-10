@@ -14,9 +14,9 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Eric Huang # the main title
+title: Piece of Mind # the main title
 
-tagline: Piece of Mind # it will display as the sub-title
+tagline: A blog by Eric # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Personal blog of Eric Huang, Math and CS student at University of Oxford. Research interests include Automated Theorem Proving, Additive Combinatorics, Extremal Graph Theory and much more.
@@ -38,7 +38,7 @@ social:
   email: eric.huang@lmh.ox.ac.uk # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://x.com/Ericyrhuang # change to your twitter homepage
+    # - https://x.com/Ericyrhuang # change to your twitter homepage
     - https://github.com/ericyrhuang # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username

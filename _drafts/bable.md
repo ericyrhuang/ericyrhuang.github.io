@@ -3,6 +3,7 @@ layout: post
 title: Bable
 ---
 
+As a Bilingual Taiwanese-American studying at Oxford, I really hit all the bells huh. 
 
 ### Oxford
 
@@ -20,9 +21,12 @@ It turns the feeling of frustration into power, because at the end of the day th
 
 ### Colonialism
 
+As I read this in Kenya, a country with a strong history of colonialism, my experience was different. 
+
+I found myself in a conversation chiefly about capitalism and neo-colonialism with Tess, a native Nairobian, on a hike in Ngong hills. 
 ### Criticism
 
-first half was idyllic (read boring) while the second half was riviting and action packed
+first half was idyllic (read boring) while the second half was riviting and action packed. 
 
 The ending was too sudden. Like everyone just gets shot or buried alive? Everyone's dead. Story over. The second half of the book ends as abrupt as its launch. A single event and it's time to go home. 
 
@@ -39,11 +43,11 @@ This was really my book, It was like it was written for me. As a bilingual Taiwa
 
 
 
-## story time
+I picked Bable up on my layover at Bangkok airport as I needed a book since I had left them all in Taiwan and Oxford. What got me hooked instantly was the Author's note:
 
-airport in thailand
-needed a book, let them all in tw and oxf
+> The trouble with writing an Oxford novel is that anyone who has spent time at Oxford will scrutinize your text to determine if your representation of Oxford aligns with their own memories of the place. Worse if you are an American writing about Oxford, for what do Americans know about anything?
 
-the blurb abt americans
+So true! I hear this way too much as my American accent snitches on me where ever I go.
 
-On another note, this is also my first book review! I hope to most more of these on here as I find more books worthy of commentary. I often find that I forget what a book was about soon after I read it. I can tell you vaguely what it's about, roughly how I felt while reading it, and if it's any good. But I can't tell you specficially what I liked and that's a shame. This is an attempt to fix that. 
+
+On another note, this is also my first book review! I hope to post more of these on here as I find more books worthy of commentary. I often find that I forget what a book was about soon after I read it. I can tell you vaguely what it's about, roughly how I felt while reading it, and if it's any good. But I can't tell you specficially what I liked and that's a shame. This is my attempt to fix that. 

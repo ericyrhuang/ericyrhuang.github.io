@@ -2,20 +2,13 @@
 layout: page
 ---
 
-# About me
-
-I am a current first-year student at the University of Oxford studying Mathematics and Computer Science.
-
-Previously, I was the president of the IBSH math club and a member of the Stuyvesant and NYC Math Team.
+# *What's left after thoughts race by? <br> After words spoken fade in the air?*
 
 
-![photo](assets/img/pfp/homepagepic.png)
-
-# Contact me
-
-Email: eric.huang@cs.ox.ac.uk
-
-Address: Norham Gardens, Lady Margaret Hall
+I've always found myself wishing to put my thoughts in words, and words on paper; to capture them like a genie in a bottle, freeze them in time, for both myself and the world. 
 
 
-All opinions are mine and not of any employer, past or present
+The essays here are an attempt at that, to elucidate what's stuck in my head, all the ideas worth sharing. This blog is a piece of my mind, a small slice of my thoughts, knowledge, and joys — all that make up me. 
+
+
+I present to you: *Piece of Mind*.
