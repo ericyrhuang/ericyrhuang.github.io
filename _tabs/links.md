@@ -33,7 +33,7 @@ Here's a preliminary list of things I find cool:
 - [SmarterEveryDay](https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA)
 - [Kurtguzart](https://www.youtube.com/@Kurzgesagt)
 - [Tom Scott](https://www.youtube.com/@TomScottGo/videos)
-- [Matchstick puzzles](http://matchstickpuzzles.blogspot.com)
+- [Matchstick puzzles](https://matchstickpuzzles.blogspot.com)
 - [✈﻿✈﻿✈ Galactic Trendsetters ✈﻿✈﻿✈](https://galacticpuzzlehunt.com)
 - [OCW](https://ocw.mit.edu)
 - [Khan Academy](https://www.khanacademy.org)
