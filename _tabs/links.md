@@ -46,7 +46,7 @@ Here's a preliminary list of things I find cool:
 - [Nick Bostrom](https://nickbostrom.com)
 - [Polaris](https://www.polaris-fellowship.com)
 - [Let's Drift](https://letsdrift.co.ke)
-
+- [what beats rock?](https://www.whatbeatsrock.com)
 
 
 

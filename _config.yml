@@ -16,10 +16,11 @@ timezone: Europe/London
 
 title: Piece of Mind # the main title
 
-tagline: A blog by Eric # it will display as the sub-title
+tagline: A blog by Eric Huang # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Personal blog of Eric Huang, Math and CS student at University of Oxford. Research interests include Automated Theorem Proving, Additive Combinatorics, Extremal Graph Theory and much more.
+  Personal blog of Eric Huang, Math and CS student at University of Oxford. Posts regularly about life, reflections, books, and more. 
+# Research interests include Automated Theorem Proving, Additive Combinatorics, Extremal Graph Theory and much more.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

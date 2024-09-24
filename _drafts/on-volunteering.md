@@ -30,7 +30,9 @@ I think my opinion has changes and fluxed significantly since I've been here
 
 ## The virtues of volunteering
 
-omg
-My blog is going to be called piece of mind
-I want to buy a domain. Either my name or my blog name
+Coming to Nairobi has been my own small rebellion in many ways
 
+A way to try doing something myself
+
+
+Obviously I still lack skill that would make me effective at scale at the moment and I have ridicuous amounts to grow. 
