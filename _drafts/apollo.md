@@ -121,22 +121,62 @@ But how can we pay it forward?
 
 From summarizing to Eason:
 
-Apollo is this weird blend of E-commerce, InsurTech, and Saas. 
+Apollo is this fascinating blend of E-commerce, InsurTech, and Saas. 
 
 Its at its core, Amazon for poor farmers who need fertilizers, seeds, and equipment. They have a central website to order the products that they offer and then taking the code they can go to their nearby agridealer, who is almost always within a 5km radius of them. man
 
 network of agents who are contract workers like Uber drivers / sales person. 
 
 
+Lots of XY plots. 
+Behavioral change vs 
+
+
+I think he seees himself in me. And I think that's the people I want to surround myself with. People who feel a responsibility to the world that has given so much to me rather than Money. 
+
+I want to surround myself with people who are:
+* Smart
+* Ambitious
+* Altruistic
+* Agenic 
 
 
 Its fascinating how the lack of access to technology spurs innovation. In the world of smartphones most tutorials are on YT. But because 3/4 of farmers only have mobile phones, they send their training as audio files over SMS instead.
 
 
+Questions to ask Eli:
+
+1. Leverage
+2. For me the voice inside is
+3. How did you think about impact?
+4. Do you think of impact qualitatively or quantatively?
 
 
 
 Write a message to him tmr thanking him and asking to schedule another one of these? He seems genuinely interested in talking about this more. And mentioned seveal times tbh. 
 
 
-Got an internship offer from him. I would like to take him up on that? Genuine impact. Even bigger than Ariya. 
+Got an internship offer from him. I would like to take him up on that? Genuine impact. Even bigger than Ariya?
+
+
+
+Hi Eli, 
+
+Thank you for your time yesterday and for the offer!
+
+I will need a bit of time after leaving Nairobi to reflect on what I achieved here and what I hope to prioritize over the next year. It'll require some introspection and a lot of wrangling with myself, but I will definitely get back to you on this. 
+
+I found the vision of Apollo to be incredibly inspiring. It's stellar example of how impact and growth are not mutually exclusive, how the startup model can be leveraged to do good. Apollo is the kind of company I plan on building myself. 
+
+I've been thinking about what we discussed and now have a few questions. I'll send them over on whatsapp.
+
+
+Stay in touch, 
+Eric
+
+
+I've been synthesising and thinking what we talked about yesterday
+
+i think my conversations with him can't be too onesided, then we'll get bored. I need to share stuff about what I've done as well too. Next batch of text tho!
+
+also just text more freely and more and faster. Can always edit later tbh
