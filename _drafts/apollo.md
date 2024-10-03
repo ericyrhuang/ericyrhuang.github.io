@@ -141,15 +141,29 @@ I want to surround myself with people who are:
 * Agenic 
 
 
-Its fascinating how the lack of access to technology spurs innovation. In the world of smartphones most tutorials are on YT. But because 3/4 of farmers only have mobile phones, they send their training as audio files over SMS instead.
+Its fascinating how the lack of access to technology spurs innovation. In the world of smartphones most tutorials are on YT. But because 3/4 of farmers only have mobile phones, they send their training as audio files over voicemail instead.
 
 
 Questions to ask Eli:
 
 1. Leverage
 2. For me the voice inside is
-3. How did you think about impact?
+3. How did you think about impact before you started out? 
+
+I've been struggling to weight direct impact (uplifting farmers like apollo) vs indirect impact (build MS and donate like gates)? Are they even compareable?
+
+I've been jolting my thoughts down recently on my plans for the year and the future.
+
+
+
+
 4. Do you think of impact qualitatively or quantatively?
+
+
+
+I've been struggling to mentally weight direct impact (uplifting farmers like apollo) vs indirect impact (build MS and donate like gates)? Can they even be compared at all?
+Currently working on my plans for the year before I get lost in the mist of it and want to set a broad direction for my vision
+but keep getting pulled in both directions. It seems easier to believe in direct impact when I was in nairobi and more convenient to think of indirect impact back in a nice vc office in london. The people i’ve spoken to in the places seem to reflect this as well, though it is also very self-selecting
 
 
 
@@ -160,19 +174,9 @@ Got an internship offer from him. I would like to take him up on that? Genuine i
 
 
 
-Hi Eli, 
-
-Thank you for your time yesterday and for the offer!
-
 I will need a bit of time after leaving Nairobi to reflect on what I achieved here and what I hope to prioritize over the next year. It'll require some introspection and a lot of wrangling with myself, but I will definitely get back to you on this. 
 
 I found the vision of Apollo to be incredibly inspiring. It's stellar example of how impact and growth are not mutually exclusive, how the startup model can be leveraged to do good. Apollo is the kind of company I plan on building myself. 
-
-I've been thinking about what we discussed and now have a few questions. I'll send them over on whatsapp.
-
-
-Stay in touch, 
-Eric
 
 
 I've been synthesising and thinking what we talked about yesterday
@@ -180,3 +184,8 @@ I've been synthesising and thinking what we talked about yesterday
 i think my conversations with him can't be too onesided, then we'll get bored. I need to share stuff about what I've done as well too. Next batch of text tho!
 
 also just text more freely and more and faster. Can always edit later tbh
+
+
+I want to ask stuff that's more impact oriented I think. 
+
+Was it harsher and harder since you were 

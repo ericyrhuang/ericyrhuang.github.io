@@ -5,7 +5,7 @@ date: 2023-12-19 12:54 +0000
 categories: [Life]
 hidden: false
 description: First post!
-comments: true
+comments: false
 #pin: true
 ---
 
