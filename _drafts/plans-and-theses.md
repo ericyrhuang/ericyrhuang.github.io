@@ -123,6 +123,19 @@ Writing it down does help and I definitely should list out some aims and goals
 
 Frameworks to help me think abt what I am doing. Don't need to update it often but why not
 
+How do I balance being proud of my work with impact?
+Impact is a component of me being haapy with my work. Should it be just a subcompoenent or a distinct concern all on its own?
+
+Theres 3 things that matter to me:
+1. Happy with what I am doing
+2. Proud of what I am doing
+3. Having an impact
+
+These 3 are obviously not mutually exclusive; in fact, they're closely intertwined. So what's the best way to think about it? Should it be condensed under an umbrella? Should it be unified?
+
+Is there a strict subset relationship between any of these?
+
+
 
 There are broadly a few career routes avaliable to me. Much more exist that I would want to do and I just don't realize yet. 
 

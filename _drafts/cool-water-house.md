@@ -13,11 +13,6 @@ The name “Nairobi” comes from the Maasai phrase 'Enkare Nyrobi', which trans
 Eason and I decided our house the Cool Water House. 
 
 
-
-Hi Dom
-
-Sorry for the delay in replying, I was very distracted by work while in Nairobi
-
 Thanks for asking though, everytime I tried to answer the question, the answer kept shifting and I've finally taken a bit of time to reflect on it. Currently writing a blog post on it but here's a bit of what I have so far
 
 
