@@ -6,7 +6,7 @@ hidden: true
 ---
 
 
-
+## Prep beforehand
 Apollo ag:
 Eli
 
@@ -66,25 +66,13 @@ The company’s goal in achieving food security involves empowering subsistence 
 
 
 
-Some notes of what we talked about today with Eli:
+## Notes
 
 1. Patience vs Complacence
-He spent a year thinking about this and how to have a big impact on the world.
+He spent a year thinking about this and how to have a big impact on the world. Wrote essays, mainly for himself, about how to best serve the world. Came up with systems and ways to think about impact and how to balance that with other things in life that make people feel fulfilled and happy. It’s not something he’s looked back on and reread as they were really only helpful then to help hime organize his thoughts down on paper instead of it floating away before him. 
 
-Wrote essays, mainly for himself, about how to best serve the world. Came up with systems and ways to think about impact and how to balance that with other things in life that make people feel fulfilled and happy. It’s not something he’s looked back on and reread as they were really only helpful then to help hime organize his thoughts down on paper instead of it floating away before him. 
+Disassembled the structure in his life — broke up with gf, left job, moved out of house with friends… etc. But too far in the opposite direction was painful as well. That year was one of the most difficult in his life even though it sounded like a great sabbatical and mental break. He was torturing himself over what to do and how to do it. Re-derived from first principles what was important to him and how he viewed the world. We're so unbelievably privileged with access the world's resources and best education. I was born into a whole and loving family where I never went hungry. How is it that someone can be born into such a different world? What responsibility do I have towards them? How can we pay it forward? 
 
-Disassembled the structure in his life — broke up with gf, left job, moved out of house with friends… etc. 
-But too far in the opposite direction was painful as well. That year was one of the most difficult in his life even though it sounded like a great sabbatical and mental break. He was torturing himself over what to do and how to do It.
-
-how to build leverage
-
-Re-derived from first principles what was important to him and how he viewed the world.
-
-We're so unbelievably privileged with access the world's resources and best education. I was born into a whole and loving family where I never went hungry. 
-How is it that someone can be born into such a different world? What responsibility do I have towards them?
-
-
-But how can we pay it forward? 
 
 - At The Climate Corporation he was using these AI / ML models to help big Agra improve their yields by ~5%
 - Now the models are mainly for fraud detection. It’s harder to optimize the underwriting part as well. They’re all high credit risk anyways basically (just virtue of them dirt poor with no buffer)
@@ -92,7 +80,6 @@ But how can we pay it forward?
 - Its a Kenyan company to Kenyans, a Zambian company to Zambians, and an American company to SF VCs.
 - There is competition, mainly from NGOs
 - Useful to have more experience. Easier to have an impact. Rn is a period of tremendous growth for me and joining the job market would mean I lose out on this. Like Christina said, what’s something that genuinely can’t wait 4 years of my life to do?
-- 
 - He wants to create lasting trust and change in the farmers, to help their lives in the long term
 - Kenyan farmers make 10~20%/acre compared to their american peers. So it’s easy to have 2x,3x results here.
 - The financing is very important as it allows them to access equipment and materials they otherwise wouldn’t be able to afford at all.
@@ -119,13 +106,29 @@ But how can we pay it forward?
 
 
 
-From summarizing to Eason:
+## Summary:
+
+Imagine if I was telling the story of the company instead
+
+### Mentality
+
+
+
+### The buisness
 
 Apollo is this fascinating blend of E-commerce, InsurTech, and Saas. 
 
-Its at its core, Amazon for poor farmers who need fertilizers, seeds, and equipment. They have a central website to order the products that they offer and then taking the code they can go to their nearby agridealer, who is almost always within a 5km radius of them. man
+Its at its core, Amazon for poor farmers who need fertilizers, seeds, and equipment. They have a central website to order the products that they offer and then taking the code they can go to their nearby agridealer, who is almost always within a 5km radius of them, to pick up their products. 
 
-network of agents who are contract workers like Uber drivers / sales person. 
+
+The other branch of the buisness is their network of agents who are contract workers like Uber drivers / sales person. It's a byproduct of the lack of accesss to technology.
+
+
+What I found most fascinating and refreshing was their buisness model. The question to ask is how do they earn money in the first place? The farmers they're working with must be willing to pay for it. It's impossible for Apollo to force the farmer to pay if they're still sometimes starving, so Apollo makes money if and only if the farmer is making money. The incentive strucutre is setup to foster cooperation instead of exploitation.
+
+The end goal is to uplift farmers from subsistence farming to farming as a buisness. Most farmers eat most of what they plant themselves and have little left to sell and make money. In addition most plant Maize as its more resistent and safe because its what they eat anyways (ugali). Whereas planting tomatoes is big risk big reward because if you aren't able to sell your tomatoes you have nothing to fall back on.
+
+
 
 
 Lots of XY plots. 
@@ -144,7 +147,8 @@ I want to surround myself with people who are:
 Its fascinating how the lack of access to technology spurs innovation. In the world of smartphones most tutorials are on YT. But because 3/4 of farmers only have mobile phones, they send their training as audio files over voicemail instead.
 
 
-Questions to ask Eli:
+
+## QNA w/ Eli:
 
 1. Leverage
 2. For me the voice inside is
@@ -167,6 +171,51 @@ but keep getting pulled in both directions. It seems easier to believe in direct
 
 
 
+
+* ⁠i have a pretty strong belief that if you want to have impact at scale, direct impact is the way. i think “earning to give” is an ethically reasonable way for a human being to build a life but unlikely to have significant impact (though perhaps it is lower volatility vs direct impact)
+
+I think my tolerance for volatility is quite high so it's ok with me and I would prefer something direct
+
+
+* ⁠even with the best of intentions, I think one place that “earning to give’ runs into problems is that ultimately the work you and the people you spend time with have a huge impact on who you are and what you prioritize. the likelihood of having massive impact (even though earning and giving away money) just goes down a lot if you’re working on entirely unrelated things, surrounded by people who don’t care about impact. this pull inward (and away from impact) only accelerates as one gets older, builds a family, etc. and real effort to avoid it.
+
+true you get more conservative as you get older. 
+
+
+* ⁠ultimately the most important thing is to do what that you love doing and motivates you. we’re not robots. i personally find building things myself with a team in pursuit of impact at scale to be way more fun than i would find working at google and donating money. that makes me a better, happier person but also makes me more effective and more likely to ultimately find a way to make impact at scale
+
+The core thesis is making myself proud and I guess its a good motivator
+
+
+
+
+i also believe that you can find a way to a) have big positive impact, b) work with smart people you like and learn from, and c) earn money. many people want to make those tradeoffs zero sum, but i don’t believe they are. they are DEFINITELY not choices that you need to make zero sum early in your career - you have time to try to have all of them.
+I want to try all 3 indeed. How do I try?
+
+There's also the emphasis of building something large by itself 
+
+There's also the perspective of 
+
+What about just building something large? The direct impact that Microsoft has is huge, though its not on those who need it the most
+
+Or is it not as good 
+
+I've heard the idea "money a good proxy for impact" so they encourage just starting a company that makes money. Obviously its not completely true (i.e. finance) but is it a good metric for startups?
+
+Also are startups the right vehicle? I've talked to people who build software at ngos and it seems they’re in need of engineers as well. Is it the scale that's the difference? Or is there something different that private companies can do but ngo's can't get off the ground?
+
+
+
+
+What about then 
+
+
+I want to make a call to him when I write my own thing. Omg i need to buy headphones ffs
+
+
+what about just 
+
+
 Write a message to him tmr thanking him and asking to schedule another one of these? He seems genuinely interested in talking about this more. And mentioned seveal times tbh. 
 
 
@@ -178,12 +227,6 @@ I will need a bit of time after leaving Nairobi to reflect on what I achieved he
 
 I found the vision of Apollo to be incredibly inspiring. It's stellar example of how impact and growth are not mutually exclusive, how the startup model can be leveraged to do good. Apollo is the kind of company I plan on building myself. 
 
-
-I've been synthesising and thinking what we talked about yesterday
-
-i think my conversations with him can't be too onesided, then we'll get bored. I need to share stuff about what I've done as well too. Next batch of text tho!
-
-also just text more freely and more and faster. Can always edit later tbh
 
 
 I want to ask stuff that's more impact oriented I think. 
