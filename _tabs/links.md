@@ -18,8 +18,15 @@ In the meantime, here's a preliminary list of things I find cool:
 - [Gil Kalai](https://gilkalai.wordpress.com)
 - [Nick Bostrom](https://nickbostrom.com)
 - [Paul Graham](https://www.paulgraham.com)
-- [Eason Kamander](https://www.easonkamander.com)
 - [Felix Stocker](https://www.felixstocker.com)
+
+
+### Fellow Orchids™️
+- [Malaika Aiyar](https://malaikaaiyar.me/)
+- [Oak Hu](https://offhandquibbles.substack.com/)
+- [UtilityHotbar](https://utilityhotbar.github.io)
+- [Amos Wollen](https://wollenblog.substack.com)
+- [Miles Kodama](https://www.mkodama.org)
 
 
 ### Math
