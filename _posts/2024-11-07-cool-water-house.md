@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Cool Water House [Nairobi 1]
-tags:
-- Nairobi
-- Memoir
-categories: Life
+# tags:
+# - Nairobi
+# - Memoir
+categories: [Life]
 date: 2024-11-07 23:30 +0000
 ---
 #### Cool Water House
