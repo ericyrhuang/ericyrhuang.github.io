@@ -4,6 +4,7 @@ title: To Math Club
 date: 2024-10-22 19:49 +0100
 description: My Personal Statement
 hidden: false
+comments: true
 ---
 > *The following essay is adapted from my personal statement when applying to US colleges.*
 

@@ -3,6 +3,7 @@ layout: post
 title: Chasing Hope
 categories: [Book Review]
 date: 2024-11-04 00:08 +0000
+comments: true
 ---
 Kristof's memoir is enthralling and inspirational. It illuminates there are many ways in life off the beaten path. Kristof is the North Star in the world of journalism, an anchor of international perspective in a world awash in sensational, irrelevant news. His memoir is no different, it tells the intimate story of a man with a strong sense of moral duty navigating our messy reality and how he personally tries to pay it forward. 
 

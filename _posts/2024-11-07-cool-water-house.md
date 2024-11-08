@@ -6,6 +6,7 @@ title: Cool Water House [Nairobi 1]
 # - Memoir
 categories: [Life]
 date: 2024-11-07 23:30 +0000
+comments: true
 ---
 #### Cool Water House
 

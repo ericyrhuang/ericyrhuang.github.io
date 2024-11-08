@@ -31,3 +31,8 @@ gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 
 gem 'google-protobuf', '>= 3.25.1'
+
+gem 'logger'
+gem 'csv'
+gem 'base64'
+gem 'ostruct'

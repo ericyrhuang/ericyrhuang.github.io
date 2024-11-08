@@ -8,13 +8,9 @@ Hi! I am Eric Huang, a current second-year student at the University of Oxford s
 
 Previously, I was the president of the IBSH math club and a member of the Stuyvesant and NYC Math Team.
 
+I am always open to hearing new ideas and happy to be a sounding board, please feel free to reach out to me, for anything really! My inbox is always open.
+
 ![photo](assets/img/pfp/homepagepic.png)
-
-# Contact me
-
-Email: eric.huang@cs.ox.ac.uk
-
-Address: Norham Gardens, Lady Margaret Hall
 
 
 All opinions are mine and not of any employer, past or present.
