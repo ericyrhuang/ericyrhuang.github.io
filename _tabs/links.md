@@ -19,6 +19,7 @@ In the meantime, here's a preliminary list of things I find cool:
 - [Nick Bostrom](https://nickbostrom.com)
 - [Paul Graham](https://www.paulgraham.com)
 - [Felix Stocker](https://www.felixstocker.com)
+- [Incomplete Ideas](http://www.offconvex.org)
 
 
 ### Fellow Orchids™️
@@ -27,7 +28,10 @@ In the meantime, here's a preliminary list of things I find cool:
 - [UtilityHotbar](https://utilityhotbar.github.io)
 - [Amos Wollen](https://wollenblog.substack.com)
 - [Miles Kodama](https://www.mkodama.org)
-
+- [Nick Marsh](marsh.blue)
+- [inkfish](inkfish.netlify.app)
+- [Rohan Selva-Radov](selvaradov.net)
+- [Agniv Sakar](agniv.me)
 
 ### Math
 - [OEIS](https://oeis.org)
@@ -40,6 +44,7 @@ In the meantime, here's a preliminary list of things I find cool:
 - [grugbrain](https://grugbrain.dev)
 - [HOATP](https://wtgowers.github.io/human-style-atp/)
 - [Situational Awareness](https://situational-awareness.ai)
+- [Off the convex path](http://www.offconvex.org)
 
 
 ### Philosophy
@@ -61,21 +66,3 @@ In the meantime, here's a preliminary list of things I find cool:
 - [Tom Scott](https://www.youtube.com/@TomScottGo/videos)
 - [Wikipedia Today](https://en.wikipedia.org/wiki/Main_Page)
 - [what beats rock?](https://www.whatbeatsrock.com)
-
-
-<!-- 
-Too commmon:
-- [Stack Overflow](https://stackoverflow.com)
-- [arxiv](https://arxiv.org
-- [Khan Academy](https://www.khanacademy.org)
-- [Goodreads](https://www.goodreads.com)
-- [EF](https://www.joinef.com)
-- [YC](https://www.ycombinator.com)
-- [Polaris](https://www.polaris-fellowship.com)
-- [Let's Drift](https://letsdrift.co.ke)
- -->
-
-
-<!-- - interesting Wikipedia pages
-- Eason's blog
-- Josiahs stuff? -->
