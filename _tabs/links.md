@@ -44,7 +44,7 @@ In the meantime, here's a preliminary list of things I find cool:
 - [grugbrain](https://grugbrain.dev)
 - [HOATP](https://wtgowers.github.io/human-style-atp/)
 - [Situational Awareness](https://situational-awareness.ai)
-- [Off the convex path](http://www.offconvex.org)
+- [Off the convex path](https://www.offconvex.org)
 
 
 ### Philosophy
