@@ -19,7 +19,7 @@ In the meantime, here's a preliminary list of things I find cool:
 - [Nick Bostrom](https://nickbostrom.com)
 - [Paul Graham](https://www.paulgraham.com)
 - [Felix Stocker](https://www.felixstocker.com)
-- [Incomplete Ideas](http://www.offconvex.org)
+- [Incomplete Ideas](https://www.offconvex.org)
 
 
 ### Fellow Orchids™️
@@ -28,10 +28,10 @@ In the meantime, here's a preliminary list of things I find cool:
 - [UtilityHotbar](https://utilityhotbar.github.io)
 - [Amos Wollen](https://wollenblog.substack.com)
 - [Miles Kodama](https://www.mkodama.org)
-- [Nick Marsh](http://www.marsh.blue)
-- [inkfish](http://www.inkfish.netlify.app)
-- [Rohan Selva-Radov](http://www.selvaradov.net)
-- [Agniv Sakar](http://www.agniv.me)
+- [Nick Marsh](https://www.marsh.blue)
+- [inkfish](https://www.inkfish.netlify.app)
+- [Rohan Selva-Radov](https://www.selvaradov.net)
+- [Agniv Sakar](https://www.agniv.me)
 
 ### Math
 - [OEIS](https://oeis.org)
