@@ -28,10 +28,10 @@ In the meantime, here's a preliminary list of things I find cool:
 - [UtilityHotbar](https://utilityhotbar.github.io)
 - [Amos Wollen](https://wollenblog.substack.com)
 - [Miles Kodama](https://www.mkodama.org)
-- [Nick Marsh](marsh.blue)
-- [inkfish](inkfish.netlify.app)
-- [Rohan Selva-Radov](selvaradov.net)
-- [Agniv Sakar](agniv.me)
+- [Nick Marsh](http://www.marsh.blue)
+- [inkfish](http://www.inkfish.netlify.app)
+- [Rohan Selva-Radov](http://www.selvaradov.net)
+- [Agniv Sakar](http://www.agniv.me)
 
 ### Math
 - [OEIS](https://oeis.org)
