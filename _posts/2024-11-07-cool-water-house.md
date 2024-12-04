@@ -8,6 +8,18 @@ categories: [Life]
 date: 2024-11-07 23:30 +0000
 comments: true
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0D207WVD0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X0D207WVD0');
+</script>
+
+
 #### Cool Water House
 
 The city name “Nairobi” comes from the Maasai phrase 'Enkare Nyrobi', which translates to “cool water.”[^1] Eason and I named our summer house the Cool Water House. And to the city's credit, it was always perfectly around 22C and lush with green vegetation, truly an oasis. The city itself was vibrant, lean and hungry for more. It reminded me of New York and seeing the young population working extremely hard inspired boundless hope for the future of Africa in me. However dark the times, however blatant the corruption, I could see a path illuminated by the incredible souls around me, for as Desmond Tutu said, "Hope is being able to see that there is light, despite all of the darkness." I think we Americans collectively have something to reflect on here as well. 

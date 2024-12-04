@@ -5,6 +5,18 @@ categories: [Book Review]
 date: 2024-11-04 00:08 +0000
 comments: true
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0D207WVD0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X0D207WVD0');
+</script>
+
+
 Kristof's memoir is enthralling and inspirational. It illuminates there are many ways in life off the beaten path. Kristof is the North Star in the world of journalism, an anchor of international perspective in a world awash in sensational, irrelevant news. His memoir is no different, it tells the intimate story of a man with a strong sense of moral duty navigating our messy reality and how he personally tries to pay it forward. 
 
 The book is addictive with vivid story telling and introspective reflections on our collective survivors guilt. Perhaps its a forgone conclusion, but the words spring off the page and grips you tightly -- as one expects from a *Times* columnist. His lucid prose shines a spotlight on some of the most neglected parts of the world. 

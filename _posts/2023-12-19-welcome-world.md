@@ -8,6 +8,17 @@ description: First post!
 comments: true
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0D207WVD0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X0D207WVD0');
+</script>
+
+
 ## Hello!
 
 I am planning on posting here some musings and reflections that I hope would be beneficial for future me and others to read.

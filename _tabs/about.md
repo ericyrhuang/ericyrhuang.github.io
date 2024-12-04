@@ -4,6 +4,17 @@ icon: fas fa-info-circle
 order: 5
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0D207WVD0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X0D207WVD0');
+</script>
+
+
 Hi! I am Eric Huang, a current second-year student at the University of Oxford studying Mathematics and Computer Science.
 
 Running [Odyssey](https://ericyrhuang.com/odyssey) next year.
