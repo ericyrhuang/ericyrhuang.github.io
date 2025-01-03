@@ -15,13 +15,13 @@ order: 5
 </script>
 
 
-Hi! I am Eric Huang, a current second-year student at the University of Oxford studying Mathematics and Computer Science.
+Hi! I am Eric Huang, a current second-year student at the Oxford studying Mathematics and Computer Science.
 
-Running [Odyssey](https://ericyrhuang.com/odyssey) next year.
+Running [Odyssey](https://ericyrhuang.com/odyssey).
 
-I am always open to hearing new ideas and happy to be a sounding board, please feel free to reach out to me, for anything really! My inbox is always open.
+I am always open to hearing new ideas and happy to be a sounding board, please feel free to reach out to me, [for anything really](https://www.kalzumeus.com/standing-invitation/)! My inbox is always open.
 
 ![photo](assets/img/pfp/homepagepic.png)
 
 
-All opinions are mine and not of any employer, past or present.
+All opinions are mine and not of any employer, past, present, or future. If I do my job correctly, they'll also be yours. 
