@@ -17,7 +17,7 @@ order: 5
 
 Hi! I am Eric Huang, a current second-year student at the Oxford studying Mathematics and Computer Science.
 
-Running [Odyssey](https://ericyrhuang.com/odyssey).
+Running [Odyssey](https://ericyrhuang.com/odyssey), [AIRO](https://airo.org.uk) and a few other things. 
 
 I am always open to hearing new ideas and happy to be a sounding board, please feel free to reach out to me, [for anything really](https://www.kalzumeus.com/standing-invitation/)! My inbox is always open.
 
