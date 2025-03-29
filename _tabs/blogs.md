@@ -1,6 +1,6 @@
 ---
 title: Blog
-icon: fa-square-rss
+icon: fas fa-square-rss
 order: 1
 redirect_to: /blog
 ---
