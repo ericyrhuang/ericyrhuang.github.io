@@ -1,0 +1,73 @@
+---
+const currentPath = Astro.url.pathname;
+
+const navLinks = [
+  { name: 'now', href: '/now' },
+  { name: 'blog', href: '/blog' },
+  { name: 'work', href: '/work' },
+];
+
+// Determine page title based on current path
+const currentPage = navLinks.find((link) => currentPath.startsWith(link.href));
+const pageTitle = currentPage
+  ? currentPage.name.charAt(0).toUpperCase() + currentPage.name.slice(1)
+  : null;
+---
+
+<header class="layout-container mb-12 flex items-start justify-between">
+  <h1 class="heading-1">
+    <a href="/" class="transition-colors hover:text-black">
+      Eric Huang
+    </a>
+    {
+      pageTitle && (
+        <span class="page-subtitle">
+          <span class="text-neutral-400">—</span>
+          {pageTitle}
+        </span>
+      )
+    }
+  </h1>
+
+  <nav
+    class="flex items-start justify-end space-x-6 py-0.5 text-lg text-neutral-500"
+  >
+    {
+      navLinks.map((link) => (
+        <a
+          href={link.href}
+          class:list={[
+            'transition-colors hover:text-black',
+            { 'text-black': currentPath.startsWith(link.href) },
+          ]}
+        >
+          {link.name}
+        </a>
+      ))
+    }
+  </nav>
+</header>
+
+<style>
+  .page-subtitle {
+    @apply font-light;
+  }
+
+  /* Mobile: stack subtitle */
+  @media (max-width: 580px) {
+    .page-subtitle {
+      @apply block text-xl;
+    }
+
+    .page-subtitle :first-child {
+      @apply hidden;
+    }
+  }
+
+  /* Mobile: stack nav */
+  @media (max-width: 420px) {
+    nav {
+      @apply flex-col items-end space-x-0;
+    }
+  }
+</style>

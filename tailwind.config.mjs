@@ -1,0 +1,18 @@
+import defaultTheme from 'tailwindcss/defaultTheme';
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: [...defaultTheme.fontFamily.sans],
+        serif: ['Newsreader', ...defaultTheme.fontFamily.serif],
+      },
+      maxWidth: {
+        'content': '768px',
+      },
+    },
+  },
+  plugins: [require('@tailwindcss/typography')],
+};

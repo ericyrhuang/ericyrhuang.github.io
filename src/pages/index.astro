@@ -1,16 +1,29 @@
 ---
-
+import BaseLayout from '@/layouts/BaseLayout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout
+  title="Eric Huang"
+  description="Personal website of Eric Huang - student, writer, and builder."
+>
+  <section class="layout-container">
+    <div class="prose-custom">
+      <p class="text-xl leading-relaxed text-neutral-700">
+        Hi, I'm <strong class="text-black">Eric Huang</strong>.
+      </p>
+
+      <p class="mt-4 text-lg text-neutral-600">
+        I'm a student at Oxford interested in mathematics, computer science, and
+        ideas that matter. Currently thinking about AI, rationality, and how to
+        build a better world.
+      </p>
+
+      <p class="mt-4 text-lg text-neutral-600">
+        Check out <a href="/now" class="link">what I'm up to now</a>, read my <a
+          href="/blog"
+          class="link">blog posts</a
+        >, or see <a href="/work" class="link">my work</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

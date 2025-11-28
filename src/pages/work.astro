@@ -1,0 +1,76 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Work - Eric Huang" description="Projects, experience, and resume.">
+  <section class="layout-container">
+    <h2 class="heading-2">Projects</h2>
+
+    <div class="mb-16 space-y-8">
+      <article>
+        <h3 class="text-lg font-semibold text-black">
+          <a href="https://github.com/ericyrhuang" class="link"> This Website </a>
+        </h3>
+        <p class="mt-2 text-neutral-600">
+          A minimal, elegant personal website built with Astro and Svelte.
+          Features a custom cursor effect, markdown-based blog, and responsive
+          design inspired by modern web aesthetics.
+        </p>
+        <div class="mt-2 flex space-x-4 text-sm text-neutral-500">
+          <span>Astro</span>
+          <span>•</span>
+          <span>Svelte</span>
+          <span>•</span>
+          <span>Tailwind CSS</span>
+          <span>•</span>
+          <span>2025</span>
+        </div>
+      </article>
+
+      <article>
+        <h3 class="text-lg font-semibold text-black">
+          <a href="#" class="link"> Project Name </a>
+        </h3>
+        <p class="mt-2 text-neutral-600">
+          Description of your project and what it does. Add your own projects
+          here!
+        </p>
+        <div class="mt-2 flex space-x-4 text-sm text-neutral-500">
+          <span>TypeScript</span>
+          <span>•</span>
+          <span>React</span>
+          <span>•</span>
+          <span>2024</span>
+        </div>
+      </article>
+    </div>
+
+    <h2 class="heading-2">Experience</h2>
+
+    <div class="space-y-6">
+      <article>
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-lg font-semibold text-black">Student</h3>
+          <span class="text-sm text-neutral-500">2023 - Present</span>
+        </div>
+        <p class="italic text-neutral-600">University of Oxford</p>
+        <p class="mt-2 text-neutral-700">
+          Studying Mathematics and Computer Science. Focused on theoretical
+          foundations, algorithms, and building practical applications.
+        </p>
+      </article>
+
+      <article>
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-lg font-semibold text-black">Your Job Title</h3>
+          <span class="text-sm text-neutral-500">Year - Year</span>
+        </div>
+        <p class="italic text-neutral-600">Company Name</p>
+        <p class="mt-2 text-neutral-700">
+          Description of your role and achievements. Add your own experience
+          here!
+        </p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

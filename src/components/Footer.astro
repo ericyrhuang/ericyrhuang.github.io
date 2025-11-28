@@ -1,0 +1,46 @@
+<footer class="layout-container mt-20 flex flex-col text-lg">
+  <!-- Contact Information -->
+  <div class="footer-row">
+    <span>Twitter</span>
+    <hr />
+    <a class="link" href="https://twitter.com/yourhandle">@yourhandle</a>
+  </div>
+
+  <div class="footer-row">
+    <span>GitHub</span>
+    <hr />
+    <a class="link" href="https://github.com/ericyrhuang">@ericyrhuang</a>
+  </div>
+
+  <div class="footer-row">
+    <span>Email</span>
+    <hr />
+    <a class="link" href="mailto:your.email@example.com"
+      >your.email@example.com</a
+    >
+  </div>
+
+  <!-- Webring -->
+  <div class="footer-row mt-8">
+    <span>Webring</span>
+    <hr />
+    <div class="flex space-x-4">
+      <a class="link" href="https://emilryd.com/">Emil</a>
+      <a class="link" href="https://0ak.hu/">Oak</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer-row {
+    @apply flex items-center space-x-4;
+  }
+
+  .footer-row span {
+    @apply min-w-[100px] text-neutral-500;
+  }
+
+  .footer-row hr {
+    @apply mt-0.5 w-full border-dotted border-neutral-300;
+  }
+</style>

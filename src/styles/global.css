@@ -1,0 +1,70 @@
+@import '@fontsource/newsreader/400-italic.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Smooth scrolling */
+  html {
+    @apply scroll-smooth;
+  }
+
+  /* Body styling - neutral gray text, generous padding */
+  body {
+    @apply py-12 sm:py-24 md:py-32 text-neutral-700 bg-white;
+    cursor: none; /* Hide default cursor for custom cursor */
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-neutral-200;
+  }
+
+  /* Horizontal rules */
+  hr {
+    @apply border-neutral-200;
+  }
+
+  /* Mobile: show default cursor */
+  @media (max-width: 991px) {
+    body {
+      cursor: auto;
+    }
+  }
+}
+
+@layer components {
+  /* Centered layout container - max-width 768px */
+  .layout-container {
+    @apply max-w-content mx-auto px-4 sm:px-6;
+  }
+
+  /* Link styling with underline and hover transition */
+  .link {
+    @apply underline underline-offset-[3px] decoration-neutral-400;
+    @apply hover:text-black hover:decoration-black transition-colors;
+  }
+
+  /* Heading 2 style */
+  .heading-2 {
+    @apply text-black text-xl font-semibold mb-6;
+  }
+
+  /* Heading 1 for page titles */
+  .heading-1 {
+    @apply text-black text-2xl font-bold mb-6;
+  }
+}
+
+/* Prose styling for blog content */
+@layer utilities {
+  .prose-custom {
+    @apply prose prose-neutral max-w-none;
+    @apply prose-headings:text-black;
+    @apply prose-a:link;
+    @apply prose-code:text-neutral-800 prose-code:bg-neutral-100;
+    @apply prose-code:px-1 prose-code:py-0.5 prose-code:rounded;
+    @apply prose-code:before:content-none prose-code:after:content-none;
+  }
+}

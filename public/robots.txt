@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ericyrhuang.github.io/sitemap-index.xml

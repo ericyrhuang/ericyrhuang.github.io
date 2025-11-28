@@ -1,0 +1,26 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { formatDate } from '@/utils/dateFormatter';
+
+export interface Props {
+  title: string;
+  description: string;
+  date: Date;
+  image?: string;
+}
+
+const { title, description, date, image } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} image={image}>
+  <article class="layout-container">
+    <header class="mb-8">
+      <h1 class="mb-2 text-3xl font-bold text-black">{title}</h1>
+      <time class="text-sm text-neutral-500">{formatDate(date)}</time>
+    </header>
+
+    <div class="prose-custom">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
