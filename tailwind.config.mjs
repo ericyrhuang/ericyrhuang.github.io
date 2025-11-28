@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: [...defaultTheme.fontFamily.sans],
+        sans: ['Inter Variable', ...defaultTheme.fontFamily.sans],
         serif: ['Newsreader', ...defaultTheme.fontFamily.serif],
       },
       maxWidth: {

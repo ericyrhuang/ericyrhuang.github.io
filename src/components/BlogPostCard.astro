@@ -11,8 +11,8 @@ const { title, slug, date, description } = Astro.props;
 import { formatDate } from '@/utils/dateFormatter';
 ---
 
-<article class="mb-6">
-  <a href={`/blog/${slug}`} class="group block">
+<article class="mb-2">
+  <a href={`/blog/${slug}`} class="group block -mx-3 rounded-lg px-3 py-2 transition-colors hover:bg-neutral-100">
     <div class="flex flex-col space-x-4 sm:flex-row sm:items-baseline">
       <time class="text-sm text-neutral-500 sm:min-w-[120px]">
         {formatDate(date)}

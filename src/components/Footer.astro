@@ -3,7 +3,7 @@
   <div class="footer-row">
     <span>Twitter</span>
     <hr />
-    <a class="link" href="https://twitter.com/yourhandle">@yourhandle</a>
+    <a class="link" href="https://x.com/Ericyrhuang">@ericyrhuang</a>
   </div>
 
   <div class="footer-row">
@@ -15,19 +15,16 @@
   <div class="footer-row">
     <span>Email</span>
     <hr />
-    <a class="link" href="mailto:your.email@example.com"
-      >your.email@example.com</a
+    <a class="link" href="mailto:eric.huang@cs.ox.ac.uk"
+      >eric.huang@cs.ox.ac.uk</a
     >
   </div>
 
   <!-- Webring -->
-  <div class="footer-row mt-8">
-    <span>Webring</span>
-    <hr />
-    <div class="flex space-x-4">
-      <a class="link" href="https://emilryd.com/">Emil</a>
-      <a class="link" href="https://0ak.hu/">Oak</a>
-    </div>
+  <div class="webring-row mt-8">
+    <a class="link" href="https://emilryd.com/">Emil</a>
+    <span class="text-neutral-500"><==></span>
+    <a class="link" href="https://0ak.hu/">Oak</a>
   </div>
 </footer>
 
@@ -42,5 +39,9 @@
 
   .footer-row hr {
     @apply mt-0.5 w-full border-dotted border-neutral-300;
+  }
+
+  .webring-row {
+    @apply flex items-center justify-center space-x-6;
   }
 </style>

@@ -15,22 +15,24 @@ const pageTitle = currentPage
 ---
 
 <header class="layout-container mb-12 flex items-start justify-between">
-  <h1 class="heading-1">
-    <a href="/" class="transition-colors hover:text-black">
-      Eric Huang
-    </a>
-    {
-      pageTitle && (
-        <span class="page-subtitle">
-          <span class="text-neutral-400">—</span>
-          {pageTitle}
-        </span>
-      )
-    }
-  </h1>
+  <div class="flex-1">
+    <h1 class="heading-1">
+      <a href="/" class="transition-colors hover:text-black">
+        Eric Huang
+      </a>
+      {
+        pageTitle && (
+          <span class="page-subtitle">
+            <span class="text-neutral-400">—</span>
+            {pageTitle}
+          </span>
+        )
+      }
+    </h1>
+  </div>
 
   <nav
-    class="flex items-start justify-end space-x-6 py-0.5 text-lg text-neutral-500"
+    class="flex flex-shrink-0 items-start justify-end space-x-6 py-0.5 text-lg text-neutral-500"
   >
     {
       navLinks.map((link) => (
