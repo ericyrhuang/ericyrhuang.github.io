@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import MiscCard from '@/components/MiscCard.astro';
+
+// Get all misc posts, filter drafts, sort by date (newest first)
+const allPosts = await getCollection('misc', ({ data }) => {
+  return data.draft !== true;
+});
+
+const sortedPosts = allPosts.sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<BaseLayout
+  title="Misc - Eric Huang"
+  description="Miscellaneous writings and content."
+>
+  <section class="layout-container">
+    <h2 class="heading-2">Miscellaneous</h2>
+
+    <div class="space-y-4">
+      {
+        sortedPosts.map((post) => (
+          <MiscCard
+            title={post.data.title}
+            slug={post.slug}
+            date={post.data.date}
+            description={post.data.description}
+          />
+        ))
+      }
+    </div>
+
+    {
+      sortedPosts.length === 0 && (
+        <p class="italic text-neutral-500">No posts yet. Check back soon!</p>
+      )
+    }
+  </section>
+</BaseLayout>

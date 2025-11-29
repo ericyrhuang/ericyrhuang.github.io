@@ -2,86 +2,89 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Work - Eric Huang" description="Projects, experience, and resume.">
+<BaseLayout title="Work - Eric Huang" description="Experience and education.">
   <section class="layout-container">
-    <h2 class="heading-2">Projects</h2>
-
+    <!-- EXPERIENCE -->
+    <h2 class="heading-2">Experience</h2>
     <div class="mb-16 space-y-8">
+
       <article>
-        <h3 class="text-lg font-semibold text-black">
-          <a href="https://ericyrhuang.com/odyssey" class="link">Odyssey</a>
-        </h3>
-        <p class="mt-2 text-neutral-600">
-          Building Odyssey, a platform for ambitious students to connect and
-          collaborate on meaningful projects.
-        </p>
-        <div class="mt-2 flex space-x-4 text-sm text-neutral-500">
-          <span>Ongoing</span>
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-lg font-semibold text-black">Researcher · Morph Labs, SF</h3>
+          <span class="text-sm text-neutral-500">Summer 2025</span>
         </div>
+        <ul class="mt-2 list-disc pl-5 text-neutral-700 space-y-1">
+          <li>Worked with Christian Szegedy on <span class="italic">Trinity</span>, a large-scale autoformalization framework for research-level mathematics.</li>
+          <li>Formalized a bound on abc conjecture exceptional sets.</li>
+          <li>Helped build—and became solely responsible for—an internal distributed RL system.</li>
+        </ul>
       </article>
 
       <article>
-        <h3 class="text-lg font-semibold text-black">
-          <a href="https://airo.org.uk" class="link">AIRO</a>
-        </h3>
-        <p class="mt-2 text-neutral-600">
-          Co-running AIRO, the AI Risk Organization at Oxford University.
-          Focused on AI safety and alignment research.
-        </p>
-        <div class="mt-2 flex space-x-4 text-sm text-neutral-500">
-          <span>Ongoing</span>
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-lg font-semibold text-black">Software Developer Intern · Ariya Finergy Ltd, Nairobi</h3>
+          <span class="text-sm text-neutral-500">Summer 2024</span>
         </div>
+        <ul class="mt-2 list-disc pl-5 text-neutral-700 space-y-1">
+          <li>Created an app to help size solar and battery models accurately for the business development team.</li>
+          <li>Developed a performance analytics tool for the maintenance team, catching underperforming devices.</li>
+          <li>Improved controller communication speeds by 5× (25s → 5s).</li>
+        </ul>
       </article>
 
       <article>
-        <h3 class="text-lg font-semibold text-black">
-          <a href="https://github.com/ericyrhuang" class="link">
-            This Website
-          </a>
-        </h3>
-        <p class="mt-2 text-neutral-600">
-          A minimal, elegant personal website built with Astro and Svelte.
-          Features a custom cursor effect, markdown-based blog, and responsive
-          design inspired by modern web aesthetics.
-        </p>
-        <div class="mt-2 flex space-x-4 text-sm text-neutral-500">
-          <span>Astro</span>
-          <span>•</span>
-          <span>Svelte</span>
-          <span>•</span>
-          <span>Tailwind CSS</span>
-          <span>•</span>
-          <span>2025</span>
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-lg font-semibold text-black">Machine Learning & Android Intern · Ubiik Inc, Taipei</h3>
+          <span class="text-sm text-neutral-500">Summers 2022 &amp; 2023</span>
         </div>
+        <ul class="mt-2 list-disc pl-5 text-neutral-700 space-y-1">
+          <li>Prototyped an Android app to automate reading analog electricity meters; achieved 10× faster reads at 98% accuracy.</li>
+          <li>Built a data-processing pipeline to clean and sort meter-reading datasets.</li>
+          <li>Trained robust OCR models (TensorFlow) to read electric meters and integrated the prototype with the parent app for a seamless UX.</li>
+        </ul>
       </article>
     </div>
 
+    <!-- EDUCATION -->
     <h2 class="heading-2">Education</h2>
-
     <div class="space-y-6">
       <article>
         <div class="flex items-baseline justify-between">
-          <h3 class="text-lg font-semibold text-black">
-            Mathematics & Computer Science
-          </h3>
-          <span class="text-sm text-neutral-500">2023 - Present</span>
+          <h3 class="text-lg font-semibold text-black">BA Mathematics &amp; Computer Science · University of Oxford</h3>
+          <span class="text-sm text-neutral-500">2023 – 2026</span>
         </div>
-        <p class="italic text-neutral-600">University of Oxford</p>
         <p class="mt-2 text-neutral-700">
-          Second-year student focused on theoretical foundations, algorithms,
-          AI safety, and practical software development.
+          Activities: Odyssey Fellowship (co-host), AI Research Oxford (organizer), Soul of America Project (co-host),
+          Oxford Entrepreneurs (committee), Taiwanese Student Society (committee), LMH Ultimate (captain), Orchard,
+          Debate Society, Oxford Ultimate Frisbee.
+        </p>
+      </article>
+
+      <article>
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-lg font-semibold text-black">International Bilingual School at Hsinchu Science Park (IBSH)</h3>
+          <span class="text-sm text-neutral-500">2021 – 2023</span>
+        </div>
+        <p class="mt-2 text-neutral-700">
+          APMO qualifier, Taiwanese Math Olympiad qualifier, Taiwan Economics Olympiad Finalist.
+        </p>
+      </article>
+
+      <article>
+        <div class="flex items-baseline justify-between">
+          <h3 class="text-lg font-semibold text-black">Stuyvesant High School, New York</h3>
+          <span class="text-sm text-neutral-500">2019 – 2021</span>
+        </div>
+        <p class="mt-2 text-neutral-700">
+          New York City Math Team; AIME qualifier ×3.
         </p>
       </article>
     </div>
 
     <div class="mt-12">
       <p class="text-neutral-600">
-        For more details, see my <a
-          href="/resume.pdf"
-          class="link"
-          target="_blank"
-          rel="noopener noreferrer">resume</a
-        >.
+        For more details, see my
+        <a href="/resume.pdf" class="link" target="_blank" rel="noopener noreferrer">resume</a>.
       </p>
     </div>
   </section>

@@ -1,3 +1,2 @@
-* the top bar is still jumping around slightly.  
-* i want there to be a search box at the bottom of my website that you can use to search through the site. 
-* i think its nice that everything can be tagged. 
+* my anon feedback footer is curently 2 lines, make it just one
+* make everything on this site lowercase (except the all caps stuff)

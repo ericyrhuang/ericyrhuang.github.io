@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import NowCard from '@/components/NowCard.astro';
+
+// Get all now entries, sort by date (newest first)
+const allNowEntries = await getCollection('now');
+const sortedEntries = allNowEntries.sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+// Get the most recent entry
+const currentEntry = sortedEntries[0];
+const { Content } = currentEntry ? await currentEntry.render() : { Content: null };
+
+// Get previous entries (all except the most recent)
+const previousEntries = sortedEntries.slice(1);
+
+// Format date as MM.DD.YY
+function formatDateShort(date: Date): string {
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  const year = String(date.getFullYear()).slice(-2);
+  return `${month}.${day}.${year}`;
+}
+---
+
+<BaseLayout
+  title="Now - Eric Huang"
+  description="What I'm working on and interested in now."
+>
+  <section class="layout-container">
+    <div class="prose-custom">
+      <h2 class="heading-2">NOW</h2>
+      {currentEntry && (
+        <>
+          <h3 class="heading-2">{formatDateShort(currentEntry.data.date)}</h3>
+          {Content && <Content />}
+        </>
+      )}
+
+      {previousEntries.length > 0 && (
+        <>
+          <hr class="my-12 border-neutral-200" />
+          <h2 class="heading-2">PREVIOUSLY</h2>
+          <div class="space-y-4 not-prose">
+            {previousEntries.map((entry) => (
+              <NowCard
+                slug={entry.slug}
+                date={entry.data.date}
+                title={entry.data.title}
+                description={entry.data.description}
+              />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+    <p class="text-neutral-600">
+      More frequent updates can be found on my <a href="https://curius.app/eric-huang" class="link">curious</a>.
+    </p>
+  </section>
+</BaseLayout>

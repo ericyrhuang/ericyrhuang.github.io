@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+// Generate static paths for all now entries
+export async function getStaticPaths() {
+  const nowEntries = await getCollection('now');
+  return nowEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+// Format date as MM.DD.YY
+function formatDateShort(date: Date): string {
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  const year = String(date.getFullYear()).slice(-2);
+  return `${month}.${day}.${year}`;
+}
+---
+
+<BaseLayout
+  title={`Now - ${formatDateShort(entry.data.date)} - Eric Huang`}
+  description="What I was working on and interested in."
+>
+  <section class="layout-container">
+    <div class="prose-custom">
+      <h2 class="heading-2">NOW</h2>
+      <h3 class="heading-2">{formatDateShort(entry.data.date)}</h3>
+      <Content />
+
+      <div class="mt-12">
+        <a href="/now" class="link">← Back to current</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

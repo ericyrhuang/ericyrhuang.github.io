@@ -4,9 +4,10 @@ export interface Props {
   slug: string;
   date: Date;
   description?: string;
+  category: 'Technical' | 'Essay' | 'Lists' | 'Updates' | 'Miscellaneous';
 }
 
-const { title, slug, date, description } = Astro.props;
+const { title, slug, date, description, category } = Astro.props;
 
 import { formatDate } from '@/utils/dateFormatter';
 ---
@@ -18,11 +19,16 @@ import { formatDate } from '@/utils/dateFormatter';
         {formatDate(date)}
       </time>
       <div class="flex-1">
-        <h3
-          class="text-lg font-medium text-black transition-all group-hover:underline"
-        >
-          {title}
-        </h3>
+        <div class="flex items-baseline gap-2">
+          <h3
+            class="text-lg font-medium text-black transition-all group-hover:underline"
+          >
+            {title}
+          </h3>
+          <span class="text-xs text-neutral-400">
+            {category}
+          </span>
+        </div>
         {description && <p class="mt-1 text-neutral-600">{description}</p>}
       </div>
     </div>

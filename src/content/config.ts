@@ -7,10 +7,31 @@ const blogCollection = defineCollection({
     description: z.string(),
     date: z.date(),
     draft: z.boolean().default(false),
-    tags: z.array(z.string()).optional(),
+    category: z.enum(['Technical', 'Lists', 'Updates', 'Miscellaneous']),
+  }),
+});
+
+const nowCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    date: z.date(),
+    title: z.string(),
+    description: z.string(),
+  }),
+});
+
+const miscCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z.date(),
+    draft: z.boolean().default(false),
   }),
 });
 
 export const collections = {
   blog: blogCollection,
+  now: nowCollection,
+  misc: miscCollection,
 };

@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BlogPostCard from '@/components/BlogPostCard.astro';
+import NowCard from '@/components/NowCard.astro';
+import MiscCard from '@/components/MiscCard.astro';
+
+// Get all blog posts, filter drafts
+const allPosts = await getCollection('blog', ({ data }) => {
+  return data.draft !== true;
+});
+
+// Get all now entries
+const allNowEntries = await getCollection('now');
+
+// Get all misc posts, filter drafts
+const allMiscPosts = await getCollection('misc', ({ data }) => {
+  return data.draft !== true;
+});
+
+// Combine all into a single array with type information
+const allContent = [
+  ...allPosts.map((post) => ({
+    type: 'blog' as const,
+    date: post.data.date,
+    data: post,
+  })),
+  ...allNowEntries.map((entry) => ({
+    type: 'now' as const,
+    date: entry.data.date,
+    data: entry,
+  })),
+  ...allMiscPosts.map((post) => ({
+    type: 'misc' as const,
+    date: post.data.date,
+    data: post,
+  })),
+];
+
+// Sort by date (newest first)
+const sortedContent = allContent.sort(
+  (a, b) => b.date.valueOf() - a.date.valueOf()
+);
+---
+
+<BaseLayout
+  title="Index - Eric Huang"
+  description="A chronological index of everything on this site."
+>
+  <section class="layout-container">
+    <div class="space-y-4">
+      {
+        sortedContent.map((item) =>
+          item.type === 'blog' ? (
+            <BlogPostCard
+              title={item.data.data.title}
+              slug={item.data.slug}
+              date={item.data.data.date}
+              description={item.data.data.description}
+              category={item.data.data.category}
+            />
+          ) : item.type === 'now' ? (
+            <NowCard
+              slug={item.data.slug}
+              date={item.data.data.date}
+              title={item.data.data.title}
+              description={item.data.data.description}
+            />
+          ) : (
+            <MiscCard
+              slug={item.data.slug}
+              date={item.data.data.date}
+              title={item.data.data.title}
+              description={item.data.data.description}
+            />
+          )
+        )
+      }
+    </div>
+
+    {
+      sortedContent.length === 0 && (
+        <p class="italic text-neutral-500">No content yet. Check back soon!</p>
+      )
+    }
+  </section>
+</BaseLayout>

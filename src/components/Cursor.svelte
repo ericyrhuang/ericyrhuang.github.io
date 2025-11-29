@@ -36,8 +36,8 @@
 
     document.addEventListener('mousemove', handleMouseMove);
 
-    // Add listeners to all links and buttons
-    const interactiveElements = document.querySelectorAll('a, button');
+    // Add listeners to all links, buttons, and inputs
+    const interactiveElements = document.querySelectorAll('a, button, input, textarea');
     interactiveElements.forEach((el) => {
       el.addEventListener('mouseenter', handleMouseEnter);
       el.addEventListener('mouseleave', handleMouseLeave);

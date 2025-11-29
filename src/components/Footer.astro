@@ -1,4 +1,29 @@
+---
+import Search from '@/components/Search.svelte';
+
+export interface Props {
+  posts?: Array<{
+    slug: string;
+    title: string;
+    description: string;
+    date: Date;
+    category?: string;
+    content?: string;
+    type: 'blog' | 'now' | 'misc';
+  }>;
+}
+
+const { posts = [] } = Astro.props;
+---
+
 <footer class="layout-container mt-20 flex flex-col text-lg">
+  <!-- Search -->
+  {posts.length > 0 && (
+    <div class="mb-16">
+      <Search client:load posts={posts} />
+    </div>
+  )}
+
   <!-- Contact Information -->
   <div class="footer-row">
     <span>Twitter</span>
@@ -18,6 +43,12 @@
     <a class="link" href="mailto:eric.huang@cs.ox.ac.uk"
       >eric.huang@cs.ox.ac.uk</a
     >
+  </div>
+
+  <div class="footer-row">
+    <span>Anon feedback</span>
+    <hr />
+    <a class="link" href="https://www.admonymous.co/eric-huang">eric-huang</a>
   </div>
 
   <!-- Webring -->

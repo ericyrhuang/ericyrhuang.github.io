@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import SEO from '@/components/SEO.astro';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
@@ -12,6 +13,50 @@ export interface Props {
 }
 
 const { title, description, image } = Astro.props;
+
+// Get all content for search functionality
+const allBlogPosts = await getCollection('blog', ({ data }) => {
+  return data.draft !== true;
+});
+const allNowEntries = await getCollection('now');
+const allMiscPosts = await getCollection('misc', ({ data }) => {
+  return data.draft !== true;
+});
+
+// Extract content from all entries
+const blogPostsForSearch = allBlogPosts.map((post) => ({
+  slug: post.slug,
+  title: post.data.title,
+  description: post.data.description,
+  date: post.data.date,
+  category: post.data.category,
+  content: post.body,
+  type: 'blog' as const,
+}));
+
+const nowEntriesForSearch = allNowEntries.map((entry) => ({
+  slug: entry.slug,
+  title: entry.data.title,
+  description: entry.data.description,
+  date: entry.data.date,
+  content: entry.body,
+  type: 'now' as const,
+}));
+
+const miscPostsForSearch = allMiscPosts.map((post) => ({
+  slug: post.slug,
+  title: post.data.title,
+  description: post.data.description,
+  date: post.data.date,
+  content: post.body,
+  type: 'misc' as const,
+}));
+
+const postsForSearch = [
+  ...blogPostsForSearch,
+  ...nowEntriesForSearch,
+  ...miscPostsForSearch,
+];
 ---
 
 <!doctype html>
@@ -25,6 +70,6 @@ const { title, description, image } = Astro.props;
     <main>
       <slot />
     </main>
-    <Footer />
+    <Footer posts={postsForSearch} />
   </body>
 </html>

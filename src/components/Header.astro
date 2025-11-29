@@ -4,7 +4,9 @@ const currentPath = Astro.url.pathname;
 const navLinks = [
   { name: 'now', href: '/now' },
   { name: 'blog', href: '/blog' },
+  { name: 'misc', href: '/misc' },
   { name: 'work', href: '/work' },
+  { name: 'index', href: '/index-all' },
 ];
 
 // Determine page title based on current path
@@ -14,9 +16,9 @@ const pageTitle = currentPage
   : null;
 ---
 
-<header class="layout-container mb-12 flex items-start justify-between">
-  <div class="flex-1">
-    <h1 class="heading-1">
+<header class="layout-container mb-12 flex items-baseline justify-between gap-8">
+  <div class="flex-1 min-w-0">
+    <h1 class="text-black text-2xl font-bold">
       <a href="/" class="transition-colors hover:text-black">
         Eric Huang
       </a>
@@ -32,7 +34,7 @@ const pageTitle = currentPage
   </div>
 
   <nav
-    class="flex flex-shrink-0 items-start justify-end space-x-6 py-0.5 text-lg text-neutral-500"
+    class="flex flex-shrink-0 items-baseline justify-end space-x-6 text-lg text-neutral-500"
   >
     {
       navLinks.map((link) => (
