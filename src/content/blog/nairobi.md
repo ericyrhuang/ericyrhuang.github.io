@@ -2,7 +2,7 @@
 title: "Cool Water House"
 description: "Entries from Nairobi"
 date: 2024-11-04
-draft: false
+draft: true
 category: Miscellaneous
 ---
 
